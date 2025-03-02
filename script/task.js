@@ -1,5 +1,6 @@
 const taskButtons = document.querySelectorAll(".btn-task");
-
+const mytaskCount=taskButtons.length;
+document.getElementById('task-count').innerText=mytaskCount;
 const activityLogContainer = document.getElementById("activity-log");
 
 taskButtons.forEach(function (taskButton, index) {
